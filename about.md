@@ -1,26 +1,41 @@
 ---
-layout: post
+layout: page
 permalink: /about/index.html
-title: About the Theme
-description: Balzac is a new, fluid & responsive theme for Jekyll (and AnchorCMS). It's gloriously beautiful and suited to long form. Built on a SCSS foundation, it's organized and awesome.
-tags: [about, Jekyll, theme, responsive]
-image:
-  feature: soft-trees.jpg
+title: About me
+tags: [about]
 ---
 
-This is built on Semantic.gs grid framework which I edited a bit to make it fluid. I hope you enjoy using, forking, whatevering this theme as much as I did making it. 
+Hello.
+======
 
-### Features
-* flexible, uses max-width for responsive goodness
-* responsive drop down menu
-* retina images using @2x
-* post loop in the footer showing 3 latest post
-* custom portfolio page for case studies
+I'm Florent, a 22 years-old weirdo from Paris. Currently studying [Computing and Information Systems](http://www.utt.fr/en/education/engineering-degree/informatics-and-information-systems.html) at [Troyes University of Technology](http://www.utt.fr/en/index.html).
 
-### Acknowledgements
-I utilized my own HTML templates, but had no prior knowledge of liquid nor the required Jekyll system file format. I took [Michael Rose](http://twitter.com/mmistakes)'s theme [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/). Having a prebuilt archive and the YAML front-matter already set up was a great help. 
+I'm also working as a Freelance iOS Developer at [Better Collective](http://www.bettercollective.com).
 
- The lovely font shown here is Calendas. For full splendor on your blog, I suggest you [head over and buy that](http://calendasplus.com/). The full family is 3 weights and costs $3. Many thanks to Daniel Bruce for the wonderful Entypo icons. Those can be picked up at [entypo.com](http://entypo.com), but are included with the source files. It's also <b>retina ready</b> via retina.js. Check out how that works over at [retinajs.com](http://retinajs.com).
+## Skills
 
-### The Name
-Balzac was a famous writer, known for his beautiful prose. I read some Balzac in school, but mostly feel comfort in the name of my favorite coffee shop in Stratford, Ontario. 
+Here are some programming languages I feel comfortable with:
+
+* Objective-C
+* JAVA
+* C/C++
+* HTML
+* CSS
+
+## Projects
+
+I've been working on a few projects:
+
+* bettingexpert iOS, official [bettingexpert](https://itunes.apple.com/gb/app/bettingexpert-free-betting/id778618162?mt=8) iOS app.
+* TCAT, iOS app to get TCAT bus timetables (Région de Troyes, Aube, France).
+* [HT1632C-Clock](https://github.com/fsegouin/HT1632C-Clock), LED Clock for Arduino based on wildstray's awesome HT1632C Library.
+
+Most of them are available on my [GitHub](https://github.com/fsegouin) account.
+
+## Contact
+
+I bet you already know how to reach me. I case you still don't know (I'm not that good at betting actually), here are a few hints:
+
+* `_nanoF` on Twitter.
+* `florent DOT segouin AT gmail DOT com` in case you still want to use these good old emails.
+* `Florent Segouin` should be enough to find me on everything else.
