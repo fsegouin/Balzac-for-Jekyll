@@ -3,6 +3,7 @@ layout: post-no-feature
 title: "Automatiser vos téléchargements sous Transmission"
 description: "Avec du RSS et peu d'huile de coude, c'est possible."
 category: articles
+comments: true
 tags: [bash, internet, programming, unix]
 ---
 

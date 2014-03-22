@@ -3,6 +3,7 @@ layout: post-no-feature
 title: "Installer htop sous OSX Moutain Lion (10.8)"
 description: "Et si on amenait un peu de linux sur nos OSX? Ca commence par htop."
 category: articles
+comments: true
 tags: [osx, programming, unix]
 ---
 
