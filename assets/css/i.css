@@ -251,6 +251,10 @@ blockquote, blockquote p {
   color: #3c3c3c;
   margin-bottom: 33px; }
 
+.video-container {
+  text-align: center;
+  margin-bottom: 16.5px; }
+
 /*   Code Formatting    */
 code {
   color: #35af87;
