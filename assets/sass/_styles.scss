@@ -540,6 +540,7 @@ header.site-header nav {
         } 
     }  
     
+    /*
     .share {
         text-align: center;
         display: block;
@@ -560,6 +561,32 @@ header.site-header nav {
             @include transit(all,.2s,ease)
         }
     }
+    */
+
+        .share {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        font-family: $sans;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 10px;
+        color: $grey-light;
+        border: 2px solid transparentize($grey-light,.3);
+        @include br(4px);
+        -webkit-border-radius: 999em;
+        border-radius: 999em;
+        &:hover {
+            color: $link;
+            border-color: transparentize($link,.3);
+            @include transit(all,.2s,ease)
+        }
+    }
+
 }
 
 /* Footer Stuff */
