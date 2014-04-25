@@ -581,8 +581,9 @@ header.site-header nav {
         -webkit-border-radius: 999em;
         border-radius: 999em;
         &:hover {
-            color: $link;
+            color: $white;
             border-color: transparentize($link,.3);
+            background: $link;
             @include transit(all,.2s,ease)
         }
     }
