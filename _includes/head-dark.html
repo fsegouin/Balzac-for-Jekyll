@@ -30,6 +30,7 @@
 
 
 <!-- For all browsers -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/i.css">
 
 <!-- Fresh Squeezed jQuery -->
@@ -47,6 +48,9 @@
 <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
 
 <div id="bump">
+  <div class="bookmark-bar">
+		<i class="fa fa-bookmark fa-3x"></i>
+  </div>
   <body class="">
     <header class="site-header darken">
       <div class="wrap">
@@ -59,7 +63,7 @@
             <li>
               <a href="/" title="{{ site.title }}">Home</a>
             </li>
-            
+
             {% for link in site.links %}
                 <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
             {% endfor %}

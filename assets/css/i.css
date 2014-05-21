@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ==========================================================================
    Imports
    ========================================================================== */
@@ -693,7 +694,7 @@ header.site-header nav {
     text-align: center;
     display: block;
     margin: 0 auto;
-    width: 100px;
+    width: 135px;
     height: 40px;
     font-size: 15px;
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
@@ -706,11 +707,12 @@ header.site-header nav {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    -webkit-border-radius: 999em;
-    border-radius: 999em; }
+    -webkit-border-radius: 40px;
+    border-radius: 40px; }
     .post .share:hover {
-      color: #61cfab;
+      color: #f9f9f9;
       border-color: rgba(97, 207, 171, 0.7);
+      background: #61cfab;
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       -webkit-transition: all 0.2s ease;
@@ -822,6 +824,34 @@ footer {
 
 .disqus {
   margin-top: 99px; }
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 140px;
+  text-align: center; }
+  .resume .avatar {
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 10px; }
+  .resume .name {
+    font-size: 27px;
+    color: #383431;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold; }
+  .resume .bio {
+    color: #a1a09c;
+    font-size: 17px; }
+
+.bookmark-bar {
+  margin-bottom: 0px;
+  height: 15px;
+  background-color: #31C38E; }
+  .bookmark-bar .fa-bookmark {
+    color: #31C38E;
+    margin-left: 25px;
+    margin-top: 10px; }
 
 /* Tablet
    ========================================================================== */
