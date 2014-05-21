@@ -1,5 +1,5 @@
 title:            florentsegouin
-tagline:          
+tagline:
 description:      Another website from a weirdo.
 #Comment out url when working locally to resolve base urls correctly
 url: # http://fsegouin.github.io
@@ -7,27 +7,26 @@ url: # http://fsegouin.github.io
 # Owner/author information
 owner:
   name:           Florent Segouin
-  avatar:         
+  avatar:
   bio:            "22yo weirdo. Doing cool web stuff at @bettercollectiv iOS developer & IT student at @UTTroyes."
   email:          florent.segouin@gmail.com
-  twitter:        _nanoF        
-  github:         fsegouin       
-  instagram:           
-  dribbble:       
+  twitter:        _nanoF
+  github:         fsegouin
+  instagram:
+  dribbble:
   disqus:         fsegouin
   # Plug in your disqus shortname!
-  
+
 
 # Links to include in top navigation
 # For external links add external: true
 links:
   - title: About
     url: /about
+  - title: Résumé
+    url: /resume/
   - title: Github
     url: https://github.com/fsegouin
-    external: true
-  - title: Résumé
-    url: http://resume.florentsegouin.com
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -44,7 +43,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10

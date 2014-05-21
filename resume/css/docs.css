@@ -1,0 +1,174 @@
+.container {
+	width: 800px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	height: 15px;
+	background-color: #31C38E;
+}
+
+.fa-bookmark {
+		color: #31C38E;
+		margin-left: 25px;
+		margin-top: 10px;
+}
+
+.resume {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.resume .avatar {
+	height: 130px;
+	border-radius: 50%;
+	/*border: 5px solid #31C38E; */
+	margin-bottom: 10px;
+}
+
+.resume .name {
+	font-size: 22px;
+	color: #383431;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.resume .bio {
+	color: #a1a09c;
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+
+.resume .bio .sub-bio {
+	margin-top: -3px;
+}
+
+.resume a, .resume a:hover {
+	color: #31c38e;
+}
+
+/*.resume .bio a, .resume .bio a:hover, .resume .title a, .resume .title a:hover {
+	color: #31c38e;
+}
+
+/*.resume .bio .bio-at {
+	color: #31c38e;
+}*/
+
+.resume .title {
+	color: #625d5a;
+	margin-bottom: 60px;
+}
+
+.resume .separator {
+	background-color: #f2f1ee;
+	height: 2px;
+	margin-bottom: 60px;
+}
+
+.resume .row-fluid {
+	margin-bottom: 40px;
+}
+
+.resume .row-fluid .span4 .name {
+	font-size: 15px;
+}
+
+.resume .row-fluid .span4 .description {
+	margin-top: 10px;
+	color: #625d5a;
+	font-size: 13px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.content {
+	text-align: left;
+}
+
+.row-fluid .span6 {
+	font-size: 19px;
+	color: #31c38e;
+	width: 350px;
+	margin-left: 100px;
+}
+
+.row-fluid .span6 .fa {
+	margin-left: -30px;
+	margin-bottom: -19px;
+	display: block;
+}
+
+.skill , .social, .experience, .education{
+	margin-top: 15px;
+	width: 350px;
+}
+
+.experience, .education {
+	/* width: 400px; */
+}
+
+.experience-name, .experience-date, .education-name, .education-date {
+	color: #383431;
+	font-size: 15px;
+}
+
+.experience-date, .experience-description, .education-date, .education-description {
+	color: #625d5a;
+}
+
+.experience-description, .education-description {
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.skill-name {
+	padding-bottom: 5px;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 16px;
+	color: #383431;
+}
+
+.skill-status {
+	color: #7f7f7f;
+	float: right;
+	display: inline-block;
+	font-size: 13px;
+}
+
+.network {
+	margin-top: 15px;
+}
+
+.network .network-name {
+	color: #7f7f7f;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-flickr,
+.fa-linkedin,
+.fa-github  {
+	color: #7f7f7f;
+}
+
+.progress-div {
+	width: 350px;
+}
+
+.progress {
+	height: 10px;
+	background-image: linear-gradient(to bottom, #CDF2E5, #CDF2E5);
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+.progress-green .bar {
+	background-image: linear-gradient(to bottom, #3ecf9b, #31c38e);
+}

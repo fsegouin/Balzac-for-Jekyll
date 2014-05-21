@@ -12,6 +12,8 @@ I'm Florent, a 22 years-old weirdo from Paris. Currently studying [Computing and
 
 I'm also working as a Freelance iOS Developer at [Better Collective](http://www.bettercollective.com).
 
+I'm currently looking for an engineering internship, starting in Spring 2015.
+
 ## Skills
 
 Here are some programming languages I feel comfortable with:
@@ -21,6 +23,8 @@ Here are some programming languages I feel comfortable with:
 * C/C++
 * HTML
 * CSS
+
+I also love to design user interfaces in my spare time.
 
 ## Projects
 
