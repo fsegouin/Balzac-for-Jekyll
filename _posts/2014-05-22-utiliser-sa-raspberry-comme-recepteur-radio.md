@@ -1,7 +1,7 @@
 ---
 layout: post-no-feature
 title: "Utiliser sa Raspberry Pi comme récepteur radio"
-description: "Aussi appellée : radio la plus compliquée au monde. Rien que ça."
+description: "Aussi appelée : radio la plus compliquée au monde. Rien que ça."
 category: articles
 comments: true
 tags: [raspberry, unix, raspbian, tech]
