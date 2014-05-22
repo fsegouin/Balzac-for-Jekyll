@@ -11,7 +11,7 @@ tags: [raspberry, unix, raspbian, tech]
 
 Il y a bientôt deux ans, j'avais acheté une clé usb DVB-T (comprendre TNT chez nous) qui à l'époque était très recherchée grâce à ses caractéristiques qui la rendait très particulière.
 
-Elle possède un tuner E4000 d'une plage de fréquence allant de 54 à 2200MHz et un démodulateur FM RTL2832U. Cette excellente combinaison est surtout appréciée grâce du fait que des petits bidouilleurs se sont aperçus que les trames provenant du RTL2832U arrivaient "brutes" au driver. Il n'en fallait pas plus pour que tout le monde détourne la clé pour en faire un récepteur radio large bande à très, très bas coût (environ 20-30€). Ce qui en fait un concurrent plus qu'intéressant face à l'ancien [FUNcube](http://www.funcubedongle.com/) qui était alors la référence.
+Elle possède un tuner E4000 d'une plage de fréquence allant de 54 à 2200MHz et un démodulateur FM RTL2832U. Cette excellente combinaison est surtout appréciée du fait que des petits bidouilleurs se sont aperçus que les trames provenant du RTL2832U arrivaient "brutes" au driver. Il n'en fallait pas plus pour que tout le monde détourne la clé pour en faire un récepteur radio large bande à très, très bas coût (environ 20-30€). Ce qui en fait un concurrent plus qu'intéressant face à l'ancien [FUNcube](http://www.funcubedongle.com/) qui était alors la référence.
 
 ## Quel intérêt ?
 
