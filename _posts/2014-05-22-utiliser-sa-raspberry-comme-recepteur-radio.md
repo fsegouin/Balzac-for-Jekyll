@@ -155,4 +155,44 @@ Comparé à SDR#, rtl-sdr ne peut malheureusement que produire du mono en sortie
 
 Jusque-là, je vous ai montré comment écouter de la radio FM en bande large (WBFM, radios commerciales). Il est tout aussi possible d'écouter la FM à bande étroite pour écouter n'importe quelle radio portable émettant dans les environs !
 
+### Scanner une plage de fréquences
+
+{% highlight bash %}
+➜  ~  rtl_fm -f <frequence_debut>:<frequence_fin>:<pas> -M fm -s 12k -l 20 | aplay -r 12k -f S16_LE
+{% endhighlight %}
+
+*Note*
+
+Dans le cadre d'une écoute NFM, un sample rate de 12k est le plus étroit possible, ne descendez pas en dessous.
+
+### Décodage POCSAG (protocole utilisé par e*Message pour son réseau Alphapage)
+
+Pour décoder le POCSAG on va avoir besoin de *Multimon-NG*.
+
+{% highlight bash %}
+➜  ~  sudo apt-get install libpulse-dev libx11-dev qt4-qmake
+➜  ~  sudo apt-get install git cmake build-essential
+➜  ~  git clone https://github.com/EliasOenal/multimonNG.git
+➜  ~  cd multimonNG/
+➜  ~  mkdir build
+➜  ~  cd build
+➜  ~  qmake ../multimon-ng.pro
+➜  ~  make
+➜  ~  sudo make install
+{% endhighlight %}
+
+Une fois que *Multimon-NG* est installé, on va faire un pipe pour diriger la sortie de rtl_fm dans le décodeur.
+
+{% highlight bash %}
+➜  ~  rtl_fm -f 466.050M -M fm -s 22050 -l 20 | multimon-ng -a POCSAG1200 -f alpha -t raw /dev/stdin
+{% endhighlight %}
+
+*Notes*
+
+L'argument "-l 20" utilisé ici est un squelch (silencieux) qui permet de définir un seuil en dessous duquel rtl_fm ne transmet pas de données. Ca évite de vous bousiller les oreilles quand il n'y a rien sur la fréquence que vous écoutez, et également d'améliorer le décodage en filtrant ce qui ne sert à rien. Cette valeur est à déterminer à l'oreille car elle est propre à chaque installation et le gain que vous avez choisi.
+
+Le sample rate de 22.05k est ici le max que l'on peut envoyer à multimon-ng, cherchez pas à utiliser autre chose, ça ne fonctionnera pas.
+
+Vous pouvez aussi mettre toutes les fréquences POCSAG connues en les enchaînant dans la commande : "-f FREQ -f FREQ ...".
+
 > Bonne écoute!
