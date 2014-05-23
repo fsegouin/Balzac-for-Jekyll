@@ -226,7 +226,7 @@ header.site-header hgroup h1, header.site-header nav ul {
 }
 header.site-header hgroup {
   float: left;
-  padding-left: 5vw;
+  padding-left: 83px;
   h1 {
       font-weight: 700;
       font-size: 18px;
@@ -350,11 +350,11 @@ header.site-header nav {
 
 .archive-wrap {
     @include column(10);
-    max-width: 800px;
+    max-width: 850px;
     display: block;
     margin: 0 auto;
     float: none;
-    padding-top: 140px;
+    padding-top: 100px;
 
     // Post Listing
     .post-list {
@@ -728,7 +728,7 @@ footer {
     margin-left: 25px;
     margin-top: 10px;
   }
-  
+
 }
 
 
@@ -805,6 +805,10 @@ footer {
 
  /* All Posts */
 
+ .resume .bio {
+   font-size: 16px;
+ }
+
   section.article img.loading {
     top: 10px !important;
     right: 6%;
@@ -825,13 +829,12 @@ footer {
 
   header.site-header hgroup {
     position: absolute;
-    left: 7%;
     float: none;
-    padding-left: 0;
   }
 
   header.site-header a.menu {
     position: absolute;
+    margin-top: 2px;
     right: 7%;
     display: block;
     float: right;
