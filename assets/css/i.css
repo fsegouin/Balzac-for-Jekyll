@@ -74,6 +74,7 @@ a {
 /* Gray scale */
 /* Hilight */
 /* Accent Colors */
+/* Social */
 /* Typography
    ========================================================================== */
 /* Type Scale
@@ -772,7 +773,7 @@ footer {
     margin: 0 1.5%;
     max-width: 600px;
     min-height: 250px;
-    padding-left: 5vw; }
+    padding-left: 13vw; }
     footer .prev-posts p {
       padding-top: 66px; }
     footer .prev-posts li {
@@ -818,12 +819,25 @@ footer {
     margin: 0 1.25%;
     right: 5vw;
     font-style: italic; }
-    footer .social a:hover {
+    footer .social a {
       color: #f3f0f0; }
+      footer .social a:hover {
+        color: rgba(243, 240, 240, 0.7); }
+    footer .social a#git {
+      color: #9f9691; }
+      footer .social a#git:hover {
+        color: rgba(159, 150, 145, 0.7); }
+    footer .social a#twit {
+      color: #55acee; }
+      footer .social a#twit:hover {
+        color: rgba(85, 172, 238, 0.7); }
     footer .social ul li {
       margin-bottom: 16.5px; }
       footer .social ul li:last-child {
         margin-bottom: 0; }
+    footer .social ul .fa {
+      font-size: 16px;
+      margin-right: 10px; }
 
 .disqus {
   margin-top: 99px; }
@@ -856,6 +870,7 @@ footer {
     margin-left: 25px;
     margin-top: 10px; }
 
+/* Resume */
 /* Tablet
    ========================================================================== */
 @media only screen and (max-width: 800px) {
