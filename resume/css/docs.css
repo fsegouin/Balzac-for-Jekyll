@@ -1,18 +1,5 @@
 .container {
-	width: 800px;
-}
-
-.navbar {
-	margin-bottom: 0px;
-	height: 15px;
-	background-color: #31C38E;
-}
-
-.fa-bookmark {
-		font-size: 3.4em;
-		color: #31C38E;
-		margin-left: 25px;
-		margin-top: 10px;
+	max-width: 800px;
 }
 
 .resume {
@@ -49,14 +36,6 @@
 	color: #31c38e;
 }
 
-/*.resume .bio a, .resume .bio a:hover, .resume .title a, .resume .title a:hover {
-	color: #31c38e;
-}
-
-/*.resume .bio .bio-at {
-	color: #31c38e;
-}*/
-
 .resume .title {
 	color: #625d5a;
 	margin-bottom: 60px;
@@ -68,18 +47,18 @@
 	margin-bottom: 60px;
 }
 
-.resume .row-fluid {
+.resume .row {
 	margin-bottom: 40px;
 }
 
-.resume .row-fluid .span4 .name {
-	font-size: 15px;
+.resume .row .name {
+	font-size: 1.2em;
 }
 
-.resume .row-fluid .span4 .description {
+.resume .row .description {
 	margin-top: 10px;
 	color: #625d5a;
-	font-size: 13px;
+	font-size: 1em;
 }
 
 .footer {
@@ -90,22 +69,19 @@
 	text-align: left;
 }
 
-.row-fluid .span6 {
-	font-size: 19px;
+.content .col-md-6 {
+	font-size: 1.4em;
 	color: #31c38e;
-	width: 350px;
-	margin-left: 100px;
 }
 
-.row-fluid .span6 .fa {
+.content .fa {
 	margin-left: -30px;
-	margin-bottom: -19px;
-	display: block;
+	position: absolute;
 }
 
-.skill , .social, .experience, .education{
-	margin-top: 15px;
-	width: 350px;
+.skill , .social, .experience, .education, .network{
+	margin-top: 20px;
+	/* width: 350px; */
 }
 
 .experience, .education {
@@ -114,39 +90,37 @@
 
 .experience-name, .experience-date, .education-name, .education-date {
 	color: #383431;
-	font-size: 15px;
+	font-size: 0.8em;
 }
 
 .experience-date, .experience-description, .education-date, .education-description {
 	color: #625d5a;
+	line-height: 1.3em;
 }
 
 .experience-description, .education-description {
 	margin-top: 5px;
-	font-size: 14px;
+	font-size: 0.7em;
 }
 
 .skill-name {
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 	font-weight: bold;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 0.8em;
 	color: #383431;
 }
 
 .skill-name .fa {
 	color: #7f7f7f;
+	margin-top: -2px;
 }
 
 .skill-status {
 	color: #7f7f7f;
 	float: right;
 	display: inline-block;
-	font-size: 13px;
-}
-
-.network {
-	margin-top: 15px;
+	font-size: 0.65em;
 }
 
 .network .network-name {
@@ -159,10 +133,6 @@
 	color: #7f7f7f;
 }
 
-.progress-div {
-	width: 350px;
-}
-
 .progress {
 	height: 10px;
 	background-image: linear-gradient(to bottom, #CDF2E5, #CDF2E5);
@@ -171,5 +141,27 @@
 }
 
 .progress-green .bar {
+	height: 10px;
 	background-image: linear-gradient(to bottom, #3ecf9b, #31c38e);
+}
+
+@media (max-width: 992px) {
+	.col-md-4, .col-md-6 {
+		margin-bottom: 40px;
+	}
+	.content .row {
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 992px) {
+	.content .col-md-6.right {
+		padding-left: 50px;
+	}
+	.skill , .social, .experience, .education{
+		width: 350px;
+	}
+	.progress-div {
+		width: 350px;
+	}
 }
