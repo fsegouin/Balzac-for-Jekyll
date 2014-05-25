@@ -647,14 +647,15 @@ footer {
                 @include column(8,12);
                 font-style: italic;
                 a {
+                  color: $white;
                     &:hover {
-                        color: $white;
+                        color: $link;
                     }
                 }
             }
             span.date {
                 float: none;
-                color: transparentize($grey-light, .4);
+                color: $grey-medium;
                 @include column(4,12);
                 position: relative;
                 font-size: $fs5;

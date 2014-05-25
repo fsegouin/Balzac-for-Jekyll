@@ -7,13 +7,14 @@
 
 /* Don't use black */
 
-$black:  #3b3b3b;
-$white: #f9f9f9;
+/* \$black:  #3b3b3b; */
+$black: #504a46;
+$white: #f3f0f0;
 
 /* Gray scale */
 
 $grey-dark:   #222;
-$grey-medium: #999;
+$grey-medium: #777D88;
 $grey-light:  #d9d9d9;
 
 /* Hilight */
@@ -30,8 +31,8 @@ $accent: #35AF87;
 $sans: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 $serif: "Calendas Plus","Crimson Text", "Hoefler Text", "Georgia", serif;
 
-   
-   
+
+
 /* Type Scale
    ========================================================================== */
 
@@ -52,7 +53,7 @@ $fs6:12px;
 $lh: 33px;
 $lhsmall: 24px;
 
-// Sizing 
+// Sizing
 $footerHeight: 320px;
 
 // Griddit
@@ -61,7 +62,7 @@ $footerHeight: 320px;
 
 /* Break Points
    ========================================================================== */
-   
+
 /* Mobile */
 $breakpoint-1-max-width:480px;
 
@@ -73,4 +74,3 @@ $breakpoint-3-max-width:1200px;
    ========================================================================== */
 
 $borderR: 4px;
-

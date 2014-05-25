@@ -70,6 +70,7 @@ a {
 /* Colors
    ========================================================================== */
 /* Don't use black */
+/* \$black:  #3b3b3b; */
 /* Gray scale */
 /* Hilight */
 /* Accent Colors */
@@ -193,13 +194,13 @@ blockquote, blockquote p {
 /************ Basic *************/
 body {
   font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
-  color: #3b3b3b;
+  color: #504a46;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
   -moz-osx-font-smoothing: grayscale;
   /* Fix for Mozilla */
   text-size-adjust: 100%;
-  background: #f9f9f9;
+  background: #f3f0f0;
   min-height: 100%;
   height: 100%;
   overflow-x: hidden; }
@@ -249,7 +250,7 @@ blockquote, blockquote p {
   font-style: italic;
   line-height: 1.3em;
   text-align: center;
-  color: #3c3c3c;
+  color: #514b46;
   margin-bottom: 33px; }
 
 .video-container {
@@ -264,13 +265,13 @@ code {
   font-weight: bold; }
 
 .highlight {
-  background: #3b3b3b;
+  background: #504a46;
   padding: 12px;
   border-radius: 4px;
   margin-bottom: 33px;
   overflow-x: scroll; }
   .highlight code {
-    color: #f9f9f9;
+    color: #f3f0f0;
     font-family: "Monaco", "Courier New", "Courier";
     font-size: .9em; }
     .highlight code .lineno {
@@ -306,7 +307,7 @@ input {
   font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif; }
   .archive input:focus {
     background: white;
-    color: #3b3b3b; }
+    color: #504a46; }
 
 /* Variables and Building Blocks */
 .icons {
@@ -363,7 +364,7 @@ header.site-header {
     max-width: 90vw; }
 
 #bump .darken a {
-  color: #3b3b3b;
+  color: #504a46;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -377,9 +378,9 @@ header.site-header {
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
 #bump .darken .menu .icons {
-  color: #3b3b3b; }
+  color: #504a46; }
 #bump .darken nav ul li a {
-  color: #3b3b3b; }
+  color: #504a46; }
   #bump .darken nav ul li a:active {
     color: #61cfab; }
   #bump .darken nav ul li a:hover {
@@ -486,7 +487,7 @@ header.site-header nav {
   .article header {
     margin: 66px 0 33px 0; }
     .article header hgroup {
-      color: #3b3b3b;
+      color: #504a46;
       position: relative;
       text-align: center;
       width: 100%;
@@ -636,7 +637,7 @@ header.site-header nav {
       position: relative;
       top: 10px;
       left: 6px;
-      color: #999999;
+      color: #777d88;
       margin-bottom: 16.5px; }
   .post h1 {
     font-style: italic; }
@@ -653,7 +654,7 @@ header.site-header nav {
       font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
       font-weight: bold;
       text-transform: uppercase;
-      color: #bbbbbb;
+      color: #cecac7;
       text-align: center; }
   .post img {
     max-width: 100%;
@@ -710,7 +711,7 @@ header.site-header nav {
     -webkit-border-radius: 40px;
     border-radius: 40px; }
     .post .share:hover {
-      color: #f9f9f9;
+      color: #f3f0f0;
       border-color: rgba(97, 207, 171, 0.7);
       background: #61cfab;
       -moz-transition: all 0.2s ease;
@@ -725,10 +726,10 @@ header.site-header nav {
 
 footer {
   width: 100%;
-  background: #3b3b3b;
+  background: #504a46;
   height: 320px;
   font-size: 22px;
-  color: #f9f9f9;
+  color: #f3f0f0;
   position: relative; }
   footer section {
     display: inline;
@@ -756,9 +757,9 @@ footer {
     bottom: 8px;
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
     text-transform: uppercase;
-    color: rgba(249, 249, 249, 0.1); }
+    color: rgba(243, 240, 240, 0.1); }
     footer small a {
-      color: rgba(249, 249, 249, 0.3); }
+      color: rgba(243, 240, 240, 0.3); }
   footer .list-title {
     margin-bottom: 16.5px;
     border-bottom: 2px solid #61cfab;
@@ -792,11 +793,13 @@ footer {
         width: 64.16667%;
         margin: 0 1.25%;
         font-style: italic; }
-        footer .prev-posts li .recent-title a:hover {
-          color: #f9f9f9; }
+        footer .prev-posts li .recent-title a {
+          color: #f3f0f0; }
+          footer .prev-posts li .recent-title a:hover {
+            color: #61cfab; }
       footer .prev-posts li span.date {
         float: none;
-        color: rgba(217, 217, 217, 0.6);
+        color: #777d88;
         display: inline;
         float: left;
         width: 30.83333%;
@@ -816,7 +819,7 @@ footer {
     right: 5vw;
     font-style: italic; }
     footer .social a:hover {
-      color: #f9f9f9; }
+      color: #f3f0f0; }
     footer .social ul li {
       margin-bottom: 16.5px; }
       footer .social ul li:last-child {
@@ -955,7 +958,7 @@ footer {
     padding-right: 7%;
     position: relative;
     width: 100%;
-    color: #f9f9f9; }
+    color: #f3f0f0; }
     header.site-header nav ul li a:active {
       background-color: #61cfab;
       color: white; }
@@ -965,15 +968,15 @@ footer {
   #bump .darken nav ul {
     padding: 0;
     margin-top: 40px;
-    background: #3b3b3b; }
+    background: #504a46; }
 
   #bump .darken nav ul li a {
-    color: #f9f9f9; }
+    color: #f3f0f0; }
     #bump .darken nav ul li a:active {
       background-color: #61cfab; }
     #bump .darken nav ul li a:hover {
       text-shadow: none;
-      color: #f9f9f9;
+      color: #f3f0f0;
       background-color: #61cfab; } }
 @media only screen and (max-width: 480px) {
   .post {
