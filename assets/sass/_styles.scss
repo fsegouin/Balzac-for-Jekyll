@@ -156,12 +156,12 @@ input {
 }
 
 .wrap {
-    max-width: 960px;
-    @include column(10);
-    float: none;
-    margin: 0 auto;
-    @include clearfix;
-    overflow: hidden;
+  max-width: 960px;
+  @include column(10);
+  float: none;
+  margin: 0 auto;
+  @include clearfix;
+  overflow: hidden;
 }
 
 .post {
@@ -636,7 +636,7 @@ footer {
         @include column(6,10);
         max-width: 600px;
         min-height: 250px;
-        padding-left: 5vw;
+        padding-left: 13vw;
         p {
             padding-top: $lh*2;
         }
@@ -673,9 +673,22 @@ footer {
         right: 5vw;
         font-style: italic;
         a {
+          color: $white;
             &:hover {
-                color: $white;
+                color: transparentize($white,.3)
             }
+        }
+        a#git {
+          color: $github;
+          &:hover {
+              color: transparentize($github,.3)
+          }
+        }
+        a#twit {
+          color: $twitter;
+          &:hover {
+              color: transparentize($twitter,.3)
+          }
         }
         ul {
             li {
@@ -683,6 +696,10 @@ footer {
                 &:last-child {
                     margin-bottom: 0;
                 }
+            }
+            .fa {
+              font-size: 16px;
+              margin-right: 10px;
             }
         }
     }
@@ -731,6 +748,8 @@ footer {
   }
 
 }
+
+/* Resume */
 
 
 
