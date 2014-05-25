@@ -21,10 +21,12 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about
+  - title: Articles
+    url: /articles
+  - title: Portfolio
+    url: /portfolio
   - title: Résumé
-    url: /resume/
+    url: /resume
   - title: Github
     url: https://github.com/fsegouin
     external: true

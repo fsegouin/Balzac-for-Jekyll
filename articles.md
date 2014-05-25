@@ -1,6 +1,6 @@
 ---
-layout: home
-permalink: /articles/index.html
+layout: articles
+permalink: /articles/
 title: "Articles"
-tags: [blog, graphic design]
+tags: [blog]
 ---
