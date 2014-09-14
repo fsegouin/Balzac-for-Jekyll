@@ -9,7 +9,7 @@
 .navbar .fa-stack {
   color: #1b557a;
   margin-left: 17px;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 .navbar .fa-stack-1x {
   position: absolute;
@@ -106,13 +106,10 @@
 .skill,
 .social,
 .experience,
-.education {
+.education,
+.references {
   margin-top: 15px;
   width: 350px;
-}
-.experience,
-.education {
-  /* width: 400px; */
 }
 .experience-name,
 .experience-date,
@@ -159,6 +156,10 @@
 .network .fa {
   color: #7f7f7f;
 }
+.reference {
+  color: #7f7f7f;
+  font-size: 15px;
+}
 .progress-div {
   width: 350px;
 }
@@ -170,4 +171,14 @@
 }
 .progress-green .bar {
   background-image: linear-gradient(to bottom, #2472a4, #1b557a);
+}
+.footer .copyright p {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #999;
+}
+.footer .copyright p .fa {
+  color: #e74c3c;
 }
