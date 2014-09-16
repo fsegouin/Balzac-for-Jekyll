@@ -182,3 +182,7 @@
 .footer .copyright p .fa {
   color: #e74c3c;
 }
+span.codedirection {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
