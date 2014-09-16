@@ -721,10 +721,10 @@ footer {
 .bookmark-bar {
   margin-bottom: 0px;
   height: 15px;
-  background-color: #31C38E;
+  background-color: $accent;
 
   .fa-bookmark {
-    color: #31C38E;
+    color: $accent;
     margin-left: 25px;
     margin-top: 8px;
     font-size: 3.5em;

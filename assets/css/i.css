@@ -1,4 +1,4 @@
-@charset "CP850";
+@charset "UTF-8";
 /* ==========================================================================
    Imports
    ========================================================================== */
@@ -105,6 +105,7 @@ body {
    - Meat
    - Headings
    - Media Query adjustments
+   - Extras
    ========================================================================== */
 /* Meat
    ========================================================================== */
@@ -145,7 +146,7 @@ h6, .h6 {
   font-size: 12px; }
 
 blockquote, blockquote p {
-  font-size: 48px; }
+  font-size: 36px; }
 
 .archive input {
   font-size: 48px; }
@@ -190,6 +191,12 @@ blockquote, blockquote p {
 
   .archive input {
     font-size: 32px; } }
+/* Extras
+   ========================================================================== */
+span.codedirection {
+  unicode-bidi: bidi-override;
+  direction: rtl; }
+
 /************ Basic *************/
 body {
   font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
@@ -211,7 +218,7 @@ p {
   margin-bottom: 33px; }
 
 a, a:visited, a:active {
-  color: #61cfab;
+  color: #1abc9c;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
@@ -219,7 +226,7 @@ a, a:visited, a:active {
   transition: all 0.25s ease-in-out; }
 
 a:hover {
-  color: #35af87;
+  color: #16a085;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
@@ -258,7 +265,7 @@ blockquote, blockquote p {
 
 /*   Code Formatting    */
 code {
-  color: #35af87;
+  color: #16a085;
   font-family: "Monaco", "Courier New", "Courier";
   font-size: .75em;
   font-weight: bold; }
@@ -315,7 +322,7 @@ input {
   line-height: 20px; }
 
 .bb {
-  border-bottom: 2px solid #61cfab; }
+  border-bottom: 2px solid #1abc9c; }
 
 .pad-top {
   padding-top: 66px; }
@@ -370,7 +377,7 @@ header.site-header {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
   #bump .darken a:hover {
-    color: #61cfab;
+    color: #1abc9c;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -381,10 +388,10 @@ header.site-header {
 #bump .darken nav ul li a {
   color: #3b3b3b; }
   #bump .darken nav ul li a:active {
-    color: #61cfab; }
+    color: #1abc9c; }
   #bump .darken nav ul li a:hover {
     text-shadow: none;
-    color: #61cfab; }
+    color: #1abc9c; }
 
 header.site-header a.menu {
   display: none; }
@@ -399,7 +406,7 @@ header.site-header hgroup {
     font-weight: 700;
     font-size: 18px;
     line-height: 100%;
-    color: #35af87;
+    color: #16a085;
     letter-spacing: 2px;
     text-transform: uppercase; }
   header.site-header hgroup a {
@@ -711,8 +718,8 @@ header.site-header nav {
     border-radius: 40px; }
     .post .share:hover {
       color: #f9f9f9;
-      border-color: rgba(97, 207, 171, 0.7);
-      background: #61cfab;
+      border-color: rgba(26, 188, 156, 0.7);
+      background: #1abc9c;
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       -webkit-transition: all 0.2s ease;
@@ -761,7 +768,7 @@ footer {
       color: rgba(249, 249, 249, 0.3); }
   footer .list-title {
     margin-bottom: 16.5px;
-    border-bottom: 2px solid #61cfab;
+    border-bottom: 2px solid #1abc9c;
     font-style: italic;
     font-size: 24px; }
   footer .prev-posts {
@@ -847,9 +854,9 @@ footer {
 .bookmark-bar {
   margin-bottom: 0px;
   height: 15px;
-  background-color: #31C38E; }
+  background-color: #16a085; }
   .bookmark-bar .fa-bookmark {
-    color: #31C38E;
+    color: #16a085;
     margin-left: 25px;
     margin-top: 8px;
     font-size: 3.5em; }
@@ -958,7 +965,7 @@ footer {
     width: 100%;
     color: #f9f9f9; }
     header.site-header nav ul li a:active {
-      background-color: #61cfab;
+      background-color: #1abc9c;
       color: white; }
     header.site-header nav ul li a:hover {
       text-shadow: none; }
@@ -971,11 +978,11 @@ footer {
   #bump .darken nav ul li a {
     color: #f9f9f9; }
     #bump .darken nav ul li a:active {
-      background-color: #61cfab; }
+      background-color: #1abc9c; }
     #bump .darken nav ul li a:hover {
       text-shadow: none;
       color: #f9f9f9;
-      background-color: #61cfab; } }
+      background-color: #1abc9c; } }
 @media only screen and (max-width: 480px) {
   .post {
     display: inline;
