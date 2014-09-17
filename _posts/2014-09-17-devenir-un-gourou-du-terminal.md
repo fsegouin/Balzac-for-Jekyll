@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "Devenir un gouru du terminal"
+title: "Devenir un gourou du terminal"
 description: "Il fait peur, mais c'est bientôt votre nouveau meilleur ami."
 category: articles
 comments: true
@@ -31,7 +31,7 @@ vous décidez de passer le cap du Terminal, il est fortement recommandé (et je
 l'ai adopté) de passer à zsh (pour Z Shell) qui comporte beaucoup
 d'améliorations par rapport à Bash, dont : 
 
-* Complétion des commandes, options et arguments.
+* Autocomplétion des commandes, options et arguments.
 * Historique des commandes à travers tous les shells zsh actifs.
 * etc
 
