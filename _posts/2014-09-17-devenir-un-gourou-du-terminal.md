@@ -92,6 +92,7 @@ dans le dossier plugins de oh-my-zsh en closant le repo git du plugin :
 
 {% highlight bash %}
 ➜  ~ cd ~/.oh-my-zsh/custom/plugins
+➜  ~ git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
 {% endhighlight %}
 
 On active le plugin dans notre fichier de configuration *~/.zshrc* comme ceci :
