@@ -2,7 +2,7 @@ title:            florentsegouin
 tagline:
 description:      Another website from a weirdo.
 #Comment out url when working locally to resolve base urls correctly
-url: # http://fsegouin.github.io
+url: # http://florentsegouin.me
 
 # Owner/author information
 owner:
@@ -25,6 +25,9 @@ links:
     url: /about
   - title: Résumé
     url: /resume/
+  - title: Vesta
+    url: /vesta/
+    external: true
   - title: Github
     url: https://github.com/fsegouin
     external: true
