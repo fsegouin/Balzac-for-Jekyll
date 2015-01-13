@@ -67,23 +67,23 @@ blockquote, blockquote p {
 /*   Code Formatting    */
 
 code {
-    color: $accent;
+    // color: $accent;
     font-family: "Monaco", "Courier New", "Courier";
     font-size: .75em;
     font-weight: bold;
 }
 
 .highlight {
-    background: $black;
+    // background: $black;
     padding: 12px;
     border-radius: 4px;
     margin-bottom: $lh;
     overflow-x: scroll;
 
     code {
-        color: $white;
+        // color: $white;
         font-family: "Monaco", "Courier New", "Courier";
-        font-size: .8em;
+        font-size: 1em;
         .lineno {
             margin-right: $lh/2;
             color: $grey-light;

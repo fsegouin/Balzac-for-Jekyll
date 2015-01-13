@@ -206,7 +206,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* Fix for Mozilla */
   text-size-adjust: 100%;
-  background: white;
+  background: #fff;
   min-height: 100%;
   height: 100%;
   overflow-x: hidden; }
@@ -265,21 +265,18 @@ blockquote, blockquote p {
 
 /*   Code Formatting    */
 code {
-  color: #16a085;
   font-family: "Monaco", "Courier New", "Courier";
   font-size: .75em;
   font-weight: bold; }
 
 .highlight {
-  background: #3b3b3b;
   padding: 12px;
   border-radius: 4px;
   margin-bottom: 33px;
   overflow-x: scroll; }
   .highlight code {
-    color: white;
     font-family: "Monaco", "Courier New", "Courier";
-    font-size: .8em; }
+    font-size: 1em; }
     .highlight code .lineno {
       margin-right: 16.5px;
       color: #d9d9d9;
@@ -637,7 +634,7 @@ header.site-header nav {
       position: relative;
       top: 10px;
       left: 6px;
-      color: #999999;
+      color: #999;
       margin-bottom: 16.5px; }
   .post h1 {
     font-style: italic; }
@@ -711,7 +708,7 @@ header.site-header nav {
     -webkit-border-radius: 40px;
     border-radius: 40px; }
     .post .share:hover {
-      color: white;
+      color: #fff;
       border-color: rgba(26, 188, 156, 0.7);
       background: #1abc9c;
       -moz-transition: all 0.2s ease;
@@ -729,7 +726,7 @@ footer {
   background: #3b3b3b;
   height: 320px;
   font-size: 22px;
-  color: white;
+  color: #fff;
   position: relative; }
   footer section {
     display: inline;
@@ -794,7 +791,7 @@ footer {
         margin: 0 1.25%;
         font-style: italic; }
         footer .prev-posts li .recent-title a:hover {
-          color: white; }
+          color: #fff; }
       footer .prev-posts li span.date {
         float: none;
         color: rgba(217, 217, 217, 0.6);
@@ -817,7 +814,7 @@ footer {
     right: 5vw;
     font-style: italic; }
     footer .social a:hover {
-      color: white; }
+      color: #fff; }
     footer .social ul li {
       margin-bottom: 16.5px; }
       footer .social ul li:last-child {
@@ -957,7 +954,7 @@ footer {
     padding-right: 7%;
     position: relative;
     width: 100%;
-    color: white; }
+    color: #fff; }
     header.site-header nav ul li a:active {
       background-color: #1abc9c;
       color: white; }
@@ -970,12 +967,12 @@ footer {
     background: #3b3b3b; }
 
   #bump .darken nav ul li a {
-    color: white; }
+    color: #fff; }
     #bump .darken nav ul li a:active {
       background-color: #1abc9c; }
     #bump .darken nav ul li a:hover {
       text-shadow: none;
-      color: white;
+      color: #fff;
       background-color: #1abc9c; } }
 @media only screen and (max-width: 480px) {
   .post {
@@ -1288,3 +1285,5 @@ green     #859900  operators, other keywords
   color: #2aa198; }
 
 /* Literal.Number.Integer.Long */
+
+/*# sourceMappingURL=i.css.map */
