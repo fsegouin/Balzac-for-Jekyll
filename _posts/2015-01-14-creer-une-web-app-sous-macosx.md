@@ -15,8 +15,9 @@ serait bien agréable. Suivez le guide !
 
 ## Exploitons une ligne de commande de Google Chrome
 
-On sait qu'il est possible de lancer Google Chrome en spécifiant une URL
-spécifique :
+On sait qu'il est possible de lancer Google Chrome en mode “application”
+tout en spécifiant une URL spécifique
+([source](http://peter.sh/experiments/chromium-command-line-switches/)) :
 
 {% highlight bash %}
 exec '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --app="http://www.google.com"
