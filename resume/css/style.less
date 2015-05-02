@@ -1,0 +1,277 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+// Variables
+
+@screen-sm-min: 768px;
+@screen-xs-max: @screen-sm-min - 1;
+
+// Colors
+
+@black: #383431;
+@red: #e74c3c;
+@grey: #625d5a;
+@lighter-grey: #f2f1ee;
+@light-grey: #7f7f7f;
+@blue: #002b36;
+
+// Theme
+
+body {
+  /* font-family: 'Lato', sans-serif; */
+  font-size: 15px;
+
+  @media (max-width: @screen-xs-max) {
+    font-size: 16px;
+  }
+}
+
+a {
+  color: @blue;
+}
+
+.topbar {
+  height: 15px;
+  background-color: @blue;
+  margin-bottom: 20px;
+
+  .fa-stack {
+    top: 5px;
+    left: 18px;
+    width: 1.8em;
+
+    .fa-chevron-up {
+      position: relative;
+      top: -5px;
+    }
+  }
+}
+
+.container {
+  max-width: 900px;
+}
+
+/* .row {
+  margin-bottom: 20px;
+} */
+
+.language {
+  .btn {
+    color: @blue;
+    border-color: @blue;
+    background-color: @blue;
+    border-radius: 25px;
+    border: solid 2px;
+    background-color: white;
+    padding: 5px 20px;
+  }
+
+  /*.btn:hover {
+    background-color: @blue;
+    color: white;
+
+    .fa {
+      color: white;
+    }
+  }*/
+}
+
+.resume {
+  #resume-header {
+    margin-top: 30px;
+
+    .name {
+      color: @black;
+      margin: 5px 0;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .fake-shell-ui {
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+      a {
+        color: inherit;
+      }
+    }
+
+    .position {
+      font-size: 1.5em;
+      font-weight: 300;
+      color: @grey;
+      margin: 20px 0;
+
+      @media (min-width: @screen-sm-min) {
+        margin: 50px 0;
+      }
+    }
+  }
+
+  .main-skill {
+    text-align: center;
+    margin: 30px 0;
+    /* padding: 14px;
+    background-color: #eff0f2;
+    border-radius: 6px; */
+
+    .title {
+      color: @blue;
+      font-weight: 600;
+      font-size: 1.3em;
+    }
+  }
+
+  .separator {
+    background-color: lighten(@light-grey, 40%);
+    height: 2px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .icon {
+    margin-bottom: 10px;
+  }
+
+  .description {
+    color: @grey;
+  }
+
+  .title {
+    color: @black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+  }
+
+  .details .row {
+      margin-bottom: 60px;
+
+    > div:not(:last-child) {
+      @media (max-width: @screen-xs-max) {
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  .experience, .education, .skills, .social, .recommendations {
+    .header {
+      color: @blue;
+      position: relative;
+      font-size: 1.4em;
+
+      @media (min-width: @screen-sm-min) {
+        left: -30px;
+      }
+    }
+
+    .block {
+      margin-top: 15px;
+
+      .title {
+        font-size: 1.1em;
+
+        .date {
+          color: @grey;
+        }
+      }
+
+      .status {
+        color: @light-grey;
+      }
+
+      .description {
+        margin-top: 5px;
+        color: @grey;
+      }
+
+      /* @media (min-width: @screen-sm-min) {
+        width: 350px;
+      } */
+    }
+  }
+
+  .skills, .social {
+    .block i.fa {
+      color: @grey;
+    }
+
+    .title {
+      margin-left: 6px;
+    }
+  }
+
+  .skills {
+    .block i.fa {
+      @media (min-width: @screen-sm-min) {
+        margin-left: -27px;
+      }
+    }
+  }
+
+  .social {
+    .block i.fa {
+      display: inline-block;
+      
+      @media (min-width: @screen-sm-min) {
+        margin-left: -20px;
+      }
+    }
+  }
+
+  .skills .block {
+    i.fa-cloud-download {
+      margin-left: -30px;
+    }
+
+    i.fa-lock {
+      margin-left: -24px;
+    }
+  }
+}
+
+footer.footer {
+  background-color: white;
+
+  .copyright {
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    color: @light-grey;
+
+    .fa {
+      color: @red;
+    }
+  }
+}
+
+.fa-bookmark {
+  color: @blue;
+}
+
+.resume i {
+  color: @blue;
+  margin-right: 5px;
+}
+
+span.codedirection {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.progress-bar {
+  background: @blue;
+}
+
+/* .progress {
+	height: 10px;
+	background-image: linear-gradient(to bottom, fade(@blue, 15%), fade(@blue, 15%));
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+.progress-green .bar {
+  height: 100%;
+	background-image: linear-gradient(to bottom, lighten(@blue, 10%), @blue);
+} */
