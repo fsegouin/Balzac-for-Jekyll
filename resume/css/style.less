@@ -2,8 +2,9 @@
 
 // Variables
 
-@screen-sm-min: 768px;
-@screen-xs-max: @screen-sm-min - 1;
+@screen-sm: 768px;
+@screen-md: 992px;
+@screen-xs-max: (@screen-sm - 1);
 
 // Colors
 
@@ -20,7 +21,7 @@ body {
   /* font-family: 'Lato', sans-serif; */
   font-size: 15px;
 
-  @media (max-width: @screen-xs-max) {
+  @media(max-width: @screen-xs-max) {
     font-size: 16px;
   }
 }
@@ -101,7 +102,7 @@ a {
       color: @grey;
       margin: 20px 0;
 
-      @media (min-width: @screen-sm-min) {
+      @media(min-width: @screen-sm) {
         margin: 50px 0;
       }
     }
@@ -147,20 +148,39 @@ a {
   .details .row {
       margin-bottom: 60px;
 
-    > div:not(:last-child) {
+    /* > div:not(:last-child) {
       @media (max-width: @screen-xs-max) {
         margin-bottom: 60px;
       }
-    }
+    } */
+
+    /* .education, .social {
+      @media (max-width: @screen-xs-max) {
+        margin-top: 60px;
+      }
+    } */
   }
 
-  .experience, .education, .skills, .social, .recommendations {
+  .education,
+  .social {
+      margin-top: 60px;
+
+      @media(min-width: @screen-sm) {
+        margin-top: 0;
+      }
+  }
+
+  .experience,
+  .education,
+  .skills,
+  .social,
+  .recommendations {
     .header {
       color: @blue;
       position: relative;
       font-size: 1.4em;
 
-      @media (min-width: @screen-sm-min) {
+      @media(min-width: @screen-md) {
         left: -30px;
       }
     }
@@ -203,7 +223,7 @@ a {
 
   .skills {
     .block i.fa {
-      @media (min-width: @screen-sm-min) {
+      @media(min-width: @screen-md) {
         margin-left: -27px;
       }
     }
@@ -212,20 +232,23 @@ a {
   .social {
     .block i.fa {
       display: inline-block;
-      
-      @media (min-width: @screen-sm-min) {
+
+      @media(min-width: @screen-md) {
         margin-left: -20px;
       }
     }
   }
 
   .skills .block {
-    i.fa-cloud-download {
-      margin-left: -30px;
-    }
+    @media(min-width: @screen-md) {
+      i.fa-cloud-download,
+      i.fa-code {
+        margin-left: -30px;
+      }
 
-    i.fa-lock {
-      margin-left: -24px;
+      i.fa-lock {
+        margin-left: -24px;
+      }
     }
   }
 }
@@ -263,15 +286,3 @@ span.codedirection {
 .progress-bar {
   background: @blue;
 }
-
-/* .progress {
-	height: 10px;
-	background-image: linear-gradient(to bottom, fade(@blue, 15%), fade(@blue, 15%));
-	border-radius: 0px;
-	-webkit-border-radius: 0px;
-}
-
-.progress-green .bar {
-  height: 100%;
-	background-image: linear-gradient(to bottom, lighten(@blue, 10%), @blue);
-} */
